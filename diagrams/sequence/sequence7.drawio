@@ -1,0 +1,179 @@
+<mxfile host="app.diagrams.net" modified="2024-02-25T14:35:46.033Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Z_cJ5HiiFeuUuiN5--wR" version="23.1.6" type="device">
+  <diagram name="Page-1" id="zwhOhd3qoYC1IAtZJhI0">
+    <mxGraphModel dx="704" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-1" value="DBSInterface" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-2" value="WeatherInfo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="9D9iPJoGLXE6-Gn1_Tcu-2">
+          <mxGeometry x="45" y="90" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="85" y="130" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-3" value="getTemperature()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="140" as="sourcePoint" />
+            <mxPoint x="279.5" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-4" value="getRainPerct()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="160" as="sourcePoint" />
+            <mxPoint x="280" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-6" value="getVisibilty()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="180" as="sourcePoint" />
+            <mxPoint x="280" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-7" value="getHumidity()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="200" as="sourcePoint" />
+            <mxPoint x="280" y="200" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-8" value="getFeelsLike()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="220" as="sourcePoint" />
+            <mxPoint x="280" y="220" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-9" value="settimestamp()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0728" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="550" as="sourcePoint" />
+            <mxPoint x="89.5" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="550" />
+              <mxPoint x="140" y="580" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-10" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=40;height=30;" vertex="1" parent="1">
+          <mxGeometry x="20" y="90" width="790" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-11" value="SunInfo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="375" y="40" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="9D9iPJoGLXE6-Gn1_Tcu-11">
+          <mxGeometry x="45" y="220" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-12" value="getSunrise_Time()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="9D9iPJoGLXE6-Gn1_Tcu-11">
+          <mxGeometry x="0.4948" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="270" as="sourcePoint" />
+            <mxPoint x="170" y="270" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-13" value="getSunset_Time()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.4925" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="290" as="sourcePoint" />
+            <mxPoint x="425" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-14" value="AirPollutionInfo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="590" y="40" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="9D9iPJoGLXE6-Gn1_Tcu-14">
+          <mxGeometry x="45" y="289" width="10" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-15" value="getAmmoniaperct()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="9D9iPJoGLXE6-Gn1_Tcu-14">
+          <mxGeometry x="0.5651" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="360" as="sourcePoint" />
+            <mxPoint x="170" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-16" value="getOzone()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.5651" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="380" as="sourcePoint" />
+            <mxPoint x="640" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-17" value="getN20perct()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.5651" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="400" as="sourcePoint" />
+            <mxPoint x="640" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-18" value="getNOperct()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.5651" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="420" as="sourcePoint" />
+            <mxPoint x="640" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-19" value="getCOperct()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.5651" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="440" as="sourcePoint" />
+            <mxPoint x="640" y="440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-20" value="getAirQualityIndex()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.5651" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="460" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-21" value="getpm10()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.5651" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="480" as="sourcePoint" />
+            <mxPoint x="640" y="480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-22" value="getpm2_5()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.5651" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="500" as="sourcePoint" />
+            <mxPoint x="640" y="500" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="790" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="20" y="321" width="790" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-25" value="Getting Sun Info" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="230" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-26" value="Getting Weather Info" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-27" value="Getting Air Pollution Info" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="321" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9D9iPJoGLXE6-Gn1_Tcu-31" value="saveInfo()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0728" width="80" relative="1" as="geometry">
+            <mxPoint x="90.5" y="600" as="sourcePoint" />
+            <mxPoint x="90" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140.5" y="600" />
+              <mxPoint x="140.5" y="630" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
