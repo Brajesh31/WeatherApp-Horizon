@@ -15,3 +15,5 @@ There are three layers to this application, each independent from the other:
  To run the JAR file, enter the following commands in the Command Prompt:  
  cd *Enter path of the project folder*  
  java -cp "lib\json-20240303.jar;lib\mysql-connector-j-8.3.0.jar;.\WeatherApp.jar" Main  
+
+Last updated: 2026-10-13 15:43 UTC
