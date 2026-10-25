@@ -16,4 +16,4 @@ There are three layers to this application, each independent from the other:
  cd *Enter path of the project folder*  
  java -cp "lib\json-20240303.jar;lib\mysql-connector-j-8.3.0.jar;.\WeatherApp.jar" Main  
 
-Last updated: 2026-10-25 14:41 UTC
+Last updated: 2026-10-25 17:59 UTC
